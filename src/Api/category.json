@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "title": "Fruits & Veggies",
+    "description" : "Fresh, organic produce sourced daily from local farms. Explore a wide range of seasonal fruits and crisp vegetables.",
+    "img": "/src/assets/fruits-and-veggies.png"
+  },
+  {
+    "id": 2,
+    "title": "Dairy & Eggs",
+    "description" : "Wholesome dairy products and free-range eggs. From creamy milk and yogurt to artisanal cheeses",
+    "img": "/src/assets/dairy-and-eggs.png"
+  },
+  {
+    "id": 3,
+    "title": "Meat & SeaFood",
+    "description" : "High-quality, responsibly sourced meat and seafood. Choose from fresh cuts, marinated options, and more.",
+    "img": "/src/assets/meat-and-seafood.png"
+  }
+]
