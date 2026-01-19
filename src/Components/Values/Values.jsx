@@ -16,7 +16,7 @@ const Values = () => {
 
   return (
     <section>
-      <div className='max-w-310 mx-auto px-10 md:py-20 py-10'>
+      <div className='max-w-300 mx-auto px-10 md:py-20 py-10 '>
         <Heading highlight="Our" heading="Values" />
         <div className='flex md:flex-row flex-col md:gap-5 gap-15 mt-15  '>
           {/* Left Values */}

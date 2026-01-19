@@ -21,3 +21,7 @@ export const navMenu = [
     path: "/contact",
   },
 ];
+
+export const tabs = ['All','Fruits','Vegetables','Dairy','Seafood']
+
+  
