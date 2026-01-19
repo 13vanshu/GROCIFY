@@ -5,10 +5,9 @@ import Button from '../../Tools/Button'
 
 const Category = () => {
 
-
     return (
         <section>
-            <div className='max-w-310 mx-auto px-10  py-20'>
+            <div className='max-w-310 mx-auto px-10 md:py-20 py-10'>
                 <Heading highlight="Shop" heading="By Category" />
 
                 {/* Category Cards */}
@@ -17,8 +16,7 @@ const Category = () => {
                         category.map(cards => {
                             return (
                                 // Card                            
-                                <div className='flex-1 basis-75'>
-
+                                <div className='flex-1 basis-75' >
                                     {/* Card Image */}
                                     <div className='w-full min-h-[30vh] relative -mb-13'>
                                         <img src={cards.img} alt="images" className='absolute bottom-0' />

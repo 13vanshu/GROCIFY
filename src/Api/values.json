@@ -1,0 +1,26 @@
+[
+    {
+        "id":1,
+        "title":"Trust",
+        "description":"It is a long established fact that a reader will be distracted by the readable.",
+        "icons": "FaHeart"
+    },
+    {
+        "id":2,
+        "title":"Always Fresh",
+        "description":"It is a long established fact that a reader will be distracted by the readable.",
+        "icons":"FaLeaf"
+    },
+    {
+        "id":3,
+        "title":"Food Safety",
+        "description":"Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "icons":"FaShieldAlt"
+    },
+    {
+        "id":4,
+        "title":"100% Organic",
+        "description":"Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "icons":"FaSeedling"
+    }
+]
