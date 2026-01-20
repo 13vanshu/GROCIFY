@@ -15,9 +15,8 @@ const Hero = () => {
           </span>
 
           {/* Heading */}
-          <h1 className="mt-3 sm:mt-4 font-bold text-4xl leading-tight sm:text-4xl sm:leading-snug md:text-6xl md:leading-tight lg:text-7xl">
-            Tasty Organic <span className="text-orange-500">Fruits</span> &{" "}
-            <span className="text-orange-500">Veggies</span> In Your City
+          <h1 className="mt-3 sm:mt-4 font-bold text-[2.8rem] leading-tight sm:text-4xl sm:leading-snug md:text-6xl md:leading-tight lg:text-7xl">
+            Tasty Organic <span className="text-orange-500">Fruits</span> & <span className="text-orange-500">Veggies</span> <br/> In Your City
           </h1>
 
           {/* Description */}
