@@ -12,7 +12,7 @@ const AppLayout = () => {
     <Hero />
     <Category />
     <Values />
-    <Products />
+    {/* <Products /> */}
     </>
   )
 }
