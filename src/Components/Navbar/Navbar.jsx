@@ -11,7 +11,6 @@ const Navbar = () => {
 
     const [showMenu, setShowMenu] = useState(false);
     const [isScrolled, setIsScrolled] = useState(false);
-    const [heartActive,setHeartActive] = useState(true);
 
     const toggleMenu = () => {
         setShowMenu(!showMenu)
@@ -30,7 +29,7 @@ const Navbar = () => {
     }, []);
 
     return (
-        <header className={`bg-white fixed top-0 left-0 right-0 z-50 transition-shadow duration-300${isScrolled ? 'drop-shadow-[0_10px_15px_rgba(0,0,0,0.1)]' : ''}`}>
+        <header className={`bg-white fixed top-0 left-0 right-0 z-50 transition-shadow duration-300 ${isScrolled ? 'drop-shadow-[0_10px_15px_rgba(0,0,0,0.1)]' : ''}`}>
             <nav className="max-w-300 mx-auto px-4 sm:px-6 md:px-10 h-[10vh] sm:h-[11vh] md:h-[14vh] flex justify-between items-center">
 
                 {/* Logo */}
