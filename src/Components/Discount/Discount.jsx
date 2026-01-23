@@ -1,4 +1,4 @@
-// src/Components/Discount/Discount.jsx
+
 import React, { useState, useRef } from "react";
 import { discountData } from "../../Data/discountData";
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
@@ -8,7 +8,6 @@ const Discount = () => {
   const [activeIndex, setActiveIndex] = useState(0);
   const totalSlides = discountData.length;
 
-  // 🔹 Touch handling
   const touchStartX = useRef(0);
   const touchEndX = useRef(0);
 
@@ -24,7 +23,6 @@ const Discount = () => {
     );
   };
 
-  // 👆 Touch events
   const handleTouchStart = (e) => {
     touchStartX.current = e.touches[0].clientX;
   };
@@ -45,7 +43,7 @@ const Discount = () => {
 
   return (
     <section className="sm:py-10 md:py-15">
-      <div className="max-w-300 mx-auto px-4 sm:px-8">
+      <div className="max-w-300 mx-auto px-4 sm:px-8 ">
 
         {/* VIEWPORT */}
         <div
@@ -65,7 +63,7 @@ const Discount = () => {
             ))}
           </div>
 
-          {/* ⬅️ LEFT ARROW (DESKTOP ONLY) */}
+          {/* LEFT ARROW */}
           <button
             onClick={prevSlide}
             className="hidden md:flex absolute left-3 md:left-6 top-1/2 -translate-y-1/2
@@ -77,7 +75,7 @@ const Discount = () => {
             <FaChevronLeft />
           </button>
 
-          {/* ➡️ RIGHT ARROW (DESKTOP ONLY) */}
+          {/* RIGHT ARROW */}
           <button
             onClick={nextSlide}
             className="hidden md:flex absolute right-3 md:right-6 top-1/2 -translate-y-1/2

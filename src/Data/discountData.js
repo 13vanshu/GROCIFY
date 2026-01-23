@@ -1,4 +1,5 @@
 import freshfruits from "../assets/fresh-fruits.png";
+import freshfruitsmobile from "../assets/fresh-fruits-mobile.png"
 
 export const discountData = [
   {
@@ -7,7 +8,8 @@ export const discountData = [
     title: "First Order Discount!",
     description:
       "Enjoy an exclusive first order discount on our grocery website!",
-    image: freshfruits,
+    imageDesktop: freshfruits,
+    imageMobile: freshfruitsmobile,
     buttonAlign: "left",
   },
   {
@@ -16,7 +18,8 @@ export const discountData = [
     title: "Mega Weekend Sale!",
     description:
       "Shop fresh essentials and save big this weekend only.",
-    image: freshfruits,
+    imageDesktop: freshfruits,
+    imageMobile: freshfruitsmobile,
     buttonAlign: "right",
   },
   {
@@ -25,7 +28,8 @@ export const discountData = [
     title: "Healthy Savings!",
     description:
       "Fresh fruits and veggies at unbeatable prices.",
-    image: freshfruits,
+   imageDesktop: freshfruits,
+    imageMobile: freshfruitsmobile,
     buttonAlign: "left",
   },
   {
@@ -34,7 +38,8 @@ export const discountData = [
     title: "Festive Special Offer!",
     description:
       "Celebrate the season with fresh groceries at exciting festive discounts.",
-    image: freshfruits,
+    imageDesktop: freshfruits,
+    imageMobile: freshfruitsmobile,
     buttonAlign: "right",
   },
   {
@@ -43,7 +48,8 @@ export const discountData = [
     title: "Midnight Flash Sale!",
     description:
       "Limited-time midnight deals on fresh fruits and daily essentials.",
-    image: freshfruits,
+    imageDesktop: freshfruits,
+    imageMobile: freshfruitsmobile,
     buttonAlign: "left",
   },
   {
@@ -52,7 +58,8 @@ export const discountData = [
     title: "Daily Essentials Saver!",
     description:
       "Save more every day on essential grocery items you use the most.",
-    image: freshfruits,
+    imageDesktop: freshfruits,
+    imageMobile: freshfruitsmobile,
     buttonAlign: "right",
   },
 ];
