@@ -10,17 +10,17 @@ const Hero = () => {
         {/* Hero Content */}
         <div className="w-full md:flex-1 pt-6 sm:pt-8 md:pt-0">
           {/* Badge */}
-          <span className="inline-block bg-orange-100 text-orange-500 text-2xl sm:text-sm md:text-base px-3 sm:px-4 md:px-5 py-1 sm:py-1.5 md:py-2 rounded-full">
+          <span className="inline-block bg-orange-100 text-orange-500 text-2xl sm:text-sm md:text-base px-3 sm:px-4 md:px-5 py-1 sm:py-1.5 md:py-2  rounded-full">
             Export Best Quality...
           </span>
 
           {/* Heading */}
-          <h1 className="mt-3 sm:mt-4 font-bold text-[2.8rem] leading-tight sm:text-4xl sm:leading-snug md:text-6xl md:leading-tight lg:text-7xl">
+          <h1 className=" font-bold text-[2.8rem] leading-tight sm:text-4xl sm:leading-snug md:text-6xl md:leading-tight lg:text-7xl">
             Tasty Organic <span className="text-orange-500">Fruits</span> & <span className="text-orange-500">Veggies</span> <br/> In Your City
           </h1>
 
           {/* Description */}
-          <p className="mt-3 sm:mt-4 mb-5 sm:mb-6 max-w-md sm:max-w-lg md:max-w-2xl text-zinc-600 text-xl sm:text-base md:text-lg">
+          <p className="mt-3 mb-5 sm:mb-6 max-w-md sm:max-w-lg md:max-w-2xl text-zinc-600 text-xl sm:text-base md:text-lg">
             Bred for a high content of beneficial substances. Our products are all
             fresh and healthy.
           </p>
