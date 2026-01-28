@@ -37,7 +37,7 @@ const Testimonials = () => {
             testimonials.map(item => {
               return (
 
-                <SwiperSlide className='bg-zinc-100 rounded-xl p-8 '>
+                <SwiperSlide className='bg-zinc-100 rounded-xl p-8 max-h-90 '>
                   <div className='flex gap-5 items-center'>
                     <div className='w-16 h-16 rounded-full bg-red-500 outline-2 outline-orange-500 outline-offset-4 overflow-hidden'>
                       <img src={item.image} className='w-full h-full'/>

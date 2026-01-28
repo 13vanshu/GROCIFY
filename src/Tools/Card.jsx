@@ -3,7 +3,7 @@ import { IoMdHeart} from "react-icons/io";
 import { FaPlus } from "react-icons/fa";
 import Button from './Button';
 
-const Card = ({image,title,category,price}) => {
+const Card = ({image,title,price}) => {
   return (
     <div className='bg-zinc-100 p-5 rounded-xl'>
 

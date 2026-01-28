@@ -1,9 +1,10 @@
 import React, { useState } from 'react';
 import Heading from '../../Tools/Heading';
 import { tabs } from '../../Data/data';
-import productslist from './../../Api/products.json';
+import { productslist } from '../../Data/products';
 import Card from '../../Tools/Card';
 import Button from '../../Tools/Button';
+import { Link } from 'react-router-dom';
 
 const Products = () => {
 
@@ -57,7 +58,9 @@ const Products = () => {
 
                 {/* View All Button */}
                 <div className="mt-10 sm:mt-12 md:mt-15 mx-auto w-fit">
-                    <Button content="View All" />
+                    <Link to = '/allproducts' className='bg-linear-to-b from-orange-400 to-orange-500 text-white px-8 py-3 items-center rounded-lg md:text-lg text-md hover:scale-105 hover:to-orange-600 transition-all duration-300 cursor-pointer'>
+                        View All
+                    </Link>
                 </div>
 
             </div>

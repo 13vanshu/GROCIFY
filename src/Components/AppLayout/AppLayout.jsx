@@ -12,7 +12,6 @@ import Footer from '../Footer/Footer'
 const AppLayout = () => {
   return (
     <>
-    <Navbar />
     <Hero />
     <Category />
     <Values />
@@ -20,7 +19,6 @@ const AppLayout = () => {
     <Discount />
     <Process />
     <Testimonials />
-    <Footer />
     </>
   )
 }
